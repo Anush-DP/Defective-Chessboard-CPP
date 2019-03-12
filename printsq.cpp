@@ -1,13 +1,12 @@
 #include<iostream>
-#include<cmath>
 #include"rlutil.h"
 using namespace std;
-void print_sq(int n,int in, int Board[][10])
+void print_sq(int n,int in, int** Board)
 {
 if(in)
 {
 cout<<endl<<"     ";
-for(int i=0;i<n;i++)cout<<i<<' ';
+for(int i=0;i<n;i++)cout<<char(i+65)<<' ';
 cout<<endl;
 cout<<"   ";
 cout<<"\u2554";//unicode for angled pipes
@@ -15,7 +14,7 @@ for(int j=0;j<(2*n+1);j++)cout<<"\u2550";
 cout<<"\u2557";//unicode for angled pipes
 cout<<endl;
 for(int i=0;i<n;i++)
-{	cout<<' '<<i<<" ";
+{	cout<<' '<<char(i+65)<<" ";
 	cout<<"\u2551";		//unicode for ||
 	for(int j=0;j<n;j++)
 	{
@@ -37,7 +36,7 @@ cout<<endl;
 else
 {
 cout<<endl<<"     ";
-for(int i=0;i<n;i++)cout<<i<<' ';
+for(int i=0;i<n;i++)cout<<char(i+65)<<' ';
 cout<<endl;
 cout<<"   ";
 cout<<"\u2554";//unicode for angled pipes
@@ -45,7 +44,7 @@ for(int j=0;j<(2*n+1);j++)cout<<"\u2550";
 cout<<"\u2557";//unicode for angled pipes
 cout<<endl;
 for(int i=0;i<n;i++)
-{	cout<<' '<<i<<" ";
+{	cout<<' '<<char(i+65)<<" ";
 	cout<<"\u2551";
 	for(int j=0;j<n;j++)
 	{

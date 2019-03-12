@@ -1,5 +1,5 @@
 int tile=0;
-void ChessBoard(int tr, int tc, int dr, int dc, int size,int Board[][10])
+void ChessBoard(int tr, int tc, int dr, int dc, int size,int** Board)
 {
 if(size==1) return;
 int t=tile++, s=size/2;
