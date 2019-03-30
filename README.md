@@ -5,11 +5,24 @@ Defective chessboard problem solving using Divide-and-Conquer algorithm and visu
 ## On linux:
 Go to the programs directory and do the following:
 1. Open terminal over there/navigate to that directory
-2. Run command: make <br>
+2. Run command:
+   ``` bash
+   $ make 
+   ```	
+   <br>
 	OR<br>
-   Run command: sh run.sh 
-3. Run command: ./dc
+   Run command:
+   <br>
+   
+   ``` bash
+   $ sh run.sh
+   ```
+   <br>
+3. Run command:<br>
 
+   ``` bash
+       $ ./dc
+   ```
 ## On windows:
 1. Lol idk use Mingw
 
