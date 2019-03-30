@@ -1,5 +1,5 @@
 # Defective-Chessboard-CPP
-Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization
+Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization using <a href="https://github.com/tapio/rlutil">rlutil</a>.
 
 # Build and run
 
