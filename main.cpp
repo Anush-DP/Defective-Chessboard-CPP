@@ -22,7 +22,7 @@ std::cin>>r>>c;
 dr=int(r-65);
 dc=int(c-65);
 ChessBoard(0,0,dr,dc,n,Board); //0,0 is the starting position of the board
-std::cout<<std::endl;
+std::cout<<std::endl<<"Defective chessboard matrix: "<<std::endl;
 for(int i = 0;i < n; ++i){
 for(int j = 0;j < n; ++j){
 Board[i][j]++;
@@ -31,6 +31,7 @@ std::cout<<Board[i][j]<<" ";
 }
 std::cout<<std::endl;
 }
+cout<<"Defective chessboard visualized:"<<std::endl;
 Board[dr][dc]=0;
 print_sq(n,0,Board);
 
