@@ -8,20 +8,16 @@ Go to the programs directory and do the following:
 2. Run command:
    ``` bash
    $ make 
-   ```	
-   <br>
-	OR<br>
-   Run command:
-   <br>
-   
+   ```
+   	OR<br>
+   Run command:<br>
    ``` bash
    $ sh run.sh
    ```
    <br>
 3. Run command:<br>
-
    ``` bash
-       $ ./dc
+   $ ./dc
    ```
 ## On windows:
 1. Lol idk use Mingw
