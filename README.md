@@ -2,23 +2,28 @@
 Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization
 
 # Build and run
+
 ## On linux:
 Go to the programs directory and do the following:
 1. Open terminal over there/navigate to that directory
 2. Run command:
-   ``` bash
+   
+   ```bash
    $ make 
    ```
-   	OR<br>
-   Run command:<br>
+   	OR
+   Run command:
+   
    ``` bash
    $ sh run.sh
    ```
-   <br>
-3. Run command:<br>
+   
+3. Run command:
+
    ``` bash
    $ ./dc
    ```
+   
 ## On windows:
 1. Lol idk use Mingw
 
