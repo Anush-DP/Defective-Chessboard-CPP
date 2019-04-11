@@ -1,6 +1,6 @@
 # Defective-Chessboard-CPP
 Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization using <a href="https://github.com/tapio/rlutil">rlutil</a>.
-
+https://www.youtube.com/watch?v=e-qBgkYOSVw
 ![Image](https://github.com/Anush-DP/Defective-Chessboard-CPP/raw/master/out.png "Output")
 
 # Build and run
