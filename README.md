@@ -1,6 +1,8 @@
 # Defective-Chessboard-CPP
 Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization using <a href="https://github.com/tapio/rlutil">rlutil</a>.
 
+![Image](https://github.com/Anush-DP/Defective-Chessboard-CPP/raw/master/out.png "Output")
+
 # Build and run
 
 ## On linux:
@@ -15,7 +17,7 @@ Go to the programs directory and do the following:
    Run command:
    
    ``` bash
-   $ sh run.sh
+   $ ./run.sh
    ```
    
 3. Run command:
