@@ -1,4 +1,4 @@
-# Defective-Chessboard-CPP
+# Defective-Chessboard-CPP [![Run on Repl.it](https://repl.it/badge/github/Anush-DP/JavaGUI)](https://Defective-Chessboard-CPP.anushdp.repl.run)
 Defective chessboard problem solving using Divide-and-Conquer algorithm and visualization using <a href="https://github.com/tapio/rlutil">rlutil</a>.
 https://www.youtube.com/watch?v=e-qBgkYOSVw
 ![Image](https://github.com/Anush-DP/Defective-Chessboard-CPP/raw/master/out.png "Output")
