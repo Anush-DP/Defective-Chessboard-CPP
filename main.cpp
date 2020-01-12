@@ -30,7 +30,7 @@ std::cout<<Board[i][j]<<" ";
 }
 std::cout<<std::endl;
 }
-std::cout<<"Defective chessboard visualized:"<<std::endl;
+std::cout<<"\nDefective chessboard visualized:"<<std::endl;
 Board[dr][dc]=0;
 DefectiveChessboard::print_sq(n,0,Board);
 

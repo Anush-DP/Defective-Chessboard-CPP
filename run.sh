@@ -1,3 +1,4 @@
+rm dc
 echo "Compiling the program..."
 g++ main.cpp DefectiveChessboard.cpp -Wall -o dc
 echo Done!
