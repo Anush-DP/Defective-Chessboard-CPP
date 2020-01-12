@@ -1,0 +1,2 @@
+language = "bash"
+run = "make && clear && echo \"\nReferences: https://www.cise.ufl.edu/~sahni/cop3530/slides/lec346.pdf\n\n\" && sed -n 2,2p README.md && echo \"\n'n' determines the size of the board\n\" && echo \"\nSample input-\nEnter value of n (2^n x 2^n): 3\" && echo \"Enter the position of defective tile(row & col): B D\n\n\" && ./dc"

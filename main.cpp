@@ -1,8 +1,7 @@
 #include<iostream>
 #include<cmath>
-
-void print_sq(int n,int in, int** Board);
-void ChessBoard(int tr, int tc, int dr, int dc, int size,int** Board);
+#include<cctype>
+#include "DefectiveChessboard.h"
 
 int main()
 {
@@ -16,12 +15,12 @@ int **Board= new int*[n];
 for(int i = 0; i < n; ++i)
 	Board[i] = new int[n];
 
-print_sq(n,1,Board);
+DefectiveChessboard::print_sq(n,1,Board);
 std::cout<<"Enter the position of defective tile(row & col): ";
 std::cin>>r>>c;
-dr=int(r-65);
-dc=int(c-65);
-ChessBoard(0,0,dr,dc,n,Board); //0,0 is the starting position of the board
+dr=int(toupper(r)-65);
+dc=int(toupper(c)-65);
+DefectiveChessboard::ChessBoard(0,0,dr,dc,n,Board); //0,0 is the starting position of the board
 std::cout<<std::endl<<"Defective chessboard matrix: "<<std::endl;
 for(int i = 0;i < n; ++i){
 for(int j = 0;j < n; ++j){
@@ -33,7 +32,7 @@ std::cout<<std::endl;
 }
 std::cout<<"Defective chessboard visualized:"<<std::endl;
 Board[dr][dc]=0;
-print_sq(n,0,Board);
+DefectiveChessboard::print_sq(n,0,Board);
 
 for(int i = 0; i < n; ++i)
     delete [] Board[i];
